@@ -19,7 +19,6 @@ final class FloatingPanel: NSPanel {
         hidesOnDeactivate = false
         animationBehavior = .utilityWindow
 
-        // Visual effect background
         let vev = NSVisualEffectView()
         vev.material = .hudWindow
         vev.blendingMode = .behindWindow
@@ -34,7 +33,6 @@ final class FloatingPanel: NSPanel {
     override var canBecomeMain: Bool { false }
 }
 
-// A tiny handle view
 final class HandleView: NSView {
     var onHover: ((Bool) -> Void)?
     var onClick: (() -> Void)?
@@ -53,16 +51,10 @@ final class HandleView: NSView {
     override func mouseDown(with event: NSEvent) { onClick?() }
 
     override func draw(_ dirtyRect: NSRect) {
-        let path = NSBezierPath(roundedRect: bounds.insetBy(dx: 2, dy: 2), xRadius: 12, yRadius: 12)
+        let lineW: CGFloat = 4
+        let rect = NSRect(x: (bounds.width - lineW) / 2, y: 4, width: lineW, height: bounds.height - 8)
+        let path = NSBezierPath(roundedRect: rect, xRadius: 2, yRadius: 2)
         NSColor.controlAccentColor.setFill()
         path.fill()
-        let attrs: [NSAttributedString.Key: Any] = [
-            .foregroundColor: NSColor.white,
-            .font: NSFont.systemFont(ofSize: 12, weight: .bold)
-        ]
-        let s = "CN" as NSString
-        let size = s.size(withAttributes: attrs)
-        let r = NSRect(x: (bounds.width - size.width)/2, y: (bounds.height - size.height)/2, width: size.width, height: size.height)
-        s.draw(in: r, withAttributes: attrs)
     }
 }

@@ -13,23 +13,17 @@ enum Corner: String, Codable, CaseIterable, Identifiable {
     }
 }
 
-enum NoteKind: String, Codable { case paragraph, bullet }
+enum BlockKind: String, Codable { case paragraph, bullet, task }
 
-struct NoteBlock: Codable, Identifiable, Hashable {
+struct Block: Codable, Identifiable, Hashable {
     var id: UUID = UUID()
-    var kind: NoteKind
-    var text: String
-}
-
-struct TodoItem: Codable, Identifiable, Hashable {
-    var id: UUID = UUID()
+    var kind: BlockKind
     var text: String
     var done: Bool = false
 }
 
 struct AppState: Codable {
-    var notes: [NoteBlock] = []
-    var todos: [TodoItem] = []
+    var blocks: [Block] = []
     var corner: Corner = .bottomRight
     var launchAtLogin: Bool = false
 }

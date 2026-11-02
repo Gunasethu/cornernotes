@@ -1,0 +1,47 @@
+{
+  "": {
+    "dependencies": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/CornerNotes.d",
+    "object": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/CornerNotes.o",
+    "swift-dependencies": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/master.swiftdeps"
+  },
+  "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/AppDelegate.swift": {
+    "object": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/AppDelegate.swift.o",
+    "swiftmodule": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/AppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/AppDelegate.swiftdeps"
+  },
+  "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/FloatingPanel.swift": {
+    "object": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/FloatingPanel.swift.o",
+    "swiftmodule": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/FloatingPanel~partial.swiftmodule",
+    "swift-dependencies": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/FloatingPanel.swiftdeps"
+  },
+  "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/LaunchAtLogin.swift": {
+    "object": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/LaunchAtLogin.swift.o",
+    "swiftmodule": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/LaunchAtLogin~partial.swiftmodule",
+    "swift-dependencies": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/LaunchAtLogin.swiftdeps"
+  },
+  "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Models.swift": {
+    "object": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/Models.swift.o",
+    "swiftmodule": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/Models~partial.swiftmodule",
+    "swift-dependencies": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/Models.swiftdeps"
+  },
+  "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/PanelController.swift": {
+    "object": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/PanelController.swift.o",
+    "swiftmodule": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/PanelController~partial.swiftmodule",
+    "swift-dependencies": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/PanelController.swiftdeps"
+  },
+  "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Store.swift": {
+    "object": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/Store.swift.o",
+    "swiftmodule": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/Store~partial.swiftmodule",
+    "swift-dependencies": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/Store.swiftdeps"
+  },
+  "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Views.swift": {
+    "object": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/Views.swift.o",
+    "swiftmodule": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/Views~partial.swiftmodule",
+    "swift-dependencies": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/Views.swiftdeps"
+  },
+  "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/main.swift": {
+    "object": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/main.swift.o",
+    "swiftmodule": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/main.swiftdeps"
+  }
+}

@@ -68,6 +68,7 @@ final class PanelController: NSResponder {
 
         globalClickMonitor = NSEvent.addGlobalMonitorForEvents(matching: [.leftMouseDown, .rightMouseDown]) { [weak self] _ in
             guard let self = self else { return }
+            if Store.shared.state.pinned { return }
             let loc = NSEvent.mouseLocation
             if self.panelWindow.frame.contains(loc) {
                 self.setEditing(true)
@@ -80,6 +81,7 @@ final class PanelController: NSResponder {
         }
         localClickMonitor = NSEvent.addLocalMonitorForEvents(matching: [.leftMouseDown, .rightMouseDown]) { [weak self] event in
             guard let self = self else { return event }
+            if Store.shared.state.pinned { return event }
             let loc = NSEvent.mouseLocation
             if self.panelWindow.frame.contains(loc) {
                 self.setEditing(true)
@@ -106,7 +108,11 @@ final class PanelController: NSResponder {
         }
 
         NotificationCenter.default.addObserver(self, selector: #selector(cornerChanged), name: .cornerChanged, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(pinChanged), name: .pinChanged, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(screenChanged), name: NSApplication.didChangeScreenParametersNotification, object: nil)
+        if Store.shared.state.pinned {
+            DispatchQueue.main.async { [weak self] in self?.expand() }
+        }
     }
 
     required init?(coder: NSCoder) {
@@ -124,6 +130,14 @@ final class PanelController: NSResponder {
     }
 
     @objc private func cornerChanged() { reposition() }
+    @objc private func pinChanged() {
+        if Store.shared.state.pinned {
+            cancelCollapse()
+            expand()
+        } else if !mouseOverHandle && !mouseOverPanel {
+            scheduleCollapse()
+        }
+    }
     @objc private func screenChanged() { reposition() }
 
     func expand() {
@@ -151,6 +165,7 @@ final class PanelController: NSResponder {
     }
 
     func collapse() {
+        guard !Store.shared.state.pinned else { return }
         guard isExpanded else { return }
         isExpanded = false
         isEditing = false
@@ -208,6 +223,7 @@ final class PanelController: NSResponder {
     }
 
     private func performCollapseIfPossible() {
+        if Store.shared.state.pinned { return }
         if mouseOverHandle || mouseOverPanel { return }
         if isEditing {
             pendingCollapse = true

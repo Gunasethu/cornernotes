@@ -110,7 +110,8 @@
         "-Xcc",
         "-g",
         "-package-name",
-        "cornernotes"
+        "cornernotes",
+        "-disable-sandbox"
       ],
       "outputFileMapPath" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/output-file-map.json",
       "outputs" : [
@@ -225,6 +226,7 @@
       "-g",
       "-package-name",
       "cornernotes",
+      "-disable-sandbox",
       "-driver-use-frontend-path",
       "/Library/Developer/CommandLineTools/usr/bin/swiftc"
     ]

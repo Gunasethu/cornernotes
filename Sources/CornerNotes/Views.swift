@@ -2,44 +2,27 @@ import SwiftUI
 
 struct UnifiedView: View {
     @ObservedObject var store = Store.shared
-    @State private var showSettings = false
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             HStack {
                 Text("CornerNotes").font(.title3.bold())
                 Spacer()
-                Button { showSettings = true } label: {
-                    Image(systemName: "gearshape")
+                Button {
+                    store.state.pinned.toggle()
+                    store.scheduleSave()
+                    NotificationCenter.default.post(name: .pinChanged, object: nil)
+                } label: {
+                    Image(systemName: store.state.pinned ? "pin.fill" : "pin")
                 }
                 .buttonStyle(.plain)
+                .help(store.state.pinned ? "Unpin panel" : "Pin panel")
             }
-
-            Button {
-                if let tv = BlockTextView.current {
-                    let att = checkboxAttachment(done: false)
-                    let a = NSMutableAttributedString(attachment: att)
-                    a.addAttribute(NSAttributedString.Key("TaskDone"), value: false, range: NSRange(location: 0, length: 1))
-                    a.append(NSAttributedString(string: " "))
-                    tv.textStorage?.insert(a, at: tv.selectedRange().location)
-                    tv.setSelectedRange(NSRange(location: tv.selectedRange().location + a.length, length: 0))
-                    tv.window?.makeFirstResponder(tv)
-                }
-            } label: {
-                HStack(spacing: 4) {
-                    Image(systemName: "plus.circle")
-                    Text("Add task")
-                }
-                .font(.callout)
-            }
-            .buttonStyle(.plain)
-
             EditorView(store: store)
                 .frame(minHeight: 200, maxHeight: 420)
         }
         .padding(12)
         .frame(width: 340)
-        .sheet(isPresented: $showSettings) { SettingsView() }
     }
 }
 
@@ -79,6 +62,7 @@ struct SettingsView: View {
 
 extension Notification.Name {
     static let cornerChanged = Notification.Name("cornerChanged")
+    static let pinChanged = Notification.Name("pinChanged")
     static let collapsePanel = Notification.Name("collapsePanel")
 }
 

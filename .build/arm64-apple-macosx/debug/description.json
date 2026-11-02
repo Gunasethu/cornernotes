@@ -1,0 +1,378 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.CornerNotes-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/sources",
+      "importPath" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Editor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/FloatingPanel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/LaunchAtLogin.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Models.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/PanelController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Store.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Views.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "CornerNotes",
+      "moduleOutputPath" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/Modules/CornerNotes.swiftmodule",
+      "objects" : [
+        "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/AppDelegate.swift.o",
+        "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/Editor.swift.o",
+        "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/FloatingPanel.swift.o",
+        "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/LaunchAtLogin.swift.o",
+        "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/Models.swift.o",
+        "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/PanelController.swift.o",
+        "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/Store.swift.o",
+        "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/Views.swift.o",
+        "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "CornerNotes_main",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "cornernotes",
+        "-disable-sandbox"
+      ],
+      "outputFileMapPath" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/Editor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/FloatingPanel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/LaunchAtLogin.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/Models.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/PanelController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/Store.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/Views.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/Modules/CornerNotes.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/AppDelegate.swift",
+        "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Editor.swift",
+        "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/FloatingPanel.swift",
+        "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/LaunchAtLogin.swift",
+        "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Models.swift",
+        "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/PanelController.swift",
+        "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Store.swift",
+        "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Views.swift",
+        "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/main.swift"
+      ],
+      "tempsPath" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "CornerNotes" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "CornerNotes",
+      "-package-name",
+      "cornernotes",
+      "-incremental",
+      "-c",
+      "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/AppDelegate.swift",
+      "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Editor.swift",
+      "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/FloatingPanel.swift",
+      "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/LaunchAtLogin.swift",
+      "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Models.swift",
+      "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/PanelController.swift",
+      "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Store.swift",
+      "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Views.swift",
+      "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/main.swift",
+      "-I",
+      "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "CornerNotes_main",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "cornernotes",
+      "-disable-sandbox",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "CornerNotes" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes-entitlement.plist"
+    },
+    "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Editor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/FloatingPanel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/LaunchAtLogin.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Models.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/PanelController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Store.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Views.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/sources"
+    },
+    "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/Editor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/FloatingPanel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/LaunchAtLogin.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/Models.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/PanelController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/Store.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/Views.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/CornerNotes.product/Objects.LinkFileList"
+    },
+    "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}

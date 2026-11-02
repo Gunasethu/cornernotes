@@ -9,6 +9,11 @@
     "swiftmodule": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/AppDelegate~partial.swiftmodule",
     "swift-dependencies": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/AppDelegate.swiftdeps"
   },
+  "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Editor.swift": {
+    "object": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/Editor.swift.o",
+    "swiftmodule": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/Editor~partial.swiftmodule",
+    "swift-dependencies": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/Editor.swiftdeps"
+  },
   "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/FloatingPanel.swift": {
     "object": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/FloatingPanel.swift.o",
     "swiftmodule": "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/FloatingPanel~partial.swiftmodule",

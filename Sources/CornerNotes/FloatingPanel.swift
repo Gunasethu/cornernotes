@@ -52,9 +52,9 @@ final class HandleView: NSView {
 
     override func draw(_ dirtyRect: NSRect) {
         let lineW: CGFloat = 4
-        let rect = NSRect(x: (bounds.width - lineW) / 2, y: 4, width: lineW, height: bounds.height - 8)
+        let rect = NSRect(x: 0, y: 4, width: lineW, height: bounds.height - 8)
         let path = NSBezierPath(roundedRect: rect, xRadius: 2, yRadius: 2)
-        NSColor.controlAccentColor.setFill()
+        NSColor.white.withAlphaComponent(0.5).setFill()
         path.fill()
     }
 }

@@ -136,7 +136,11 @@ final class PanelController: NSResponder {
         startFrame.origin.x -= panelWindow.frame.width * 0.15
         panelWindow.setFrame(startFrame, display: false)
         panelWindow.orderFrontRegardless()
+        NSApp.activate(ignoringOtherApps: true)
         panelWindow.makeKeyAndOrderFront(nil)
+        if let tv = BlockTextView.current {
+            panelWindow.makeFirstResponder(tv)
+        }
         handleWindow.alphaValue = 0  // hide handle while expanded
         NSAnimationContext.runAnimationGroup({ ctx in
             ctx.duration = 0.25
@@ -167,7 +171,7 @@ final class PanelController: NSResponder {
         })
     }
 
-    private func setEditing(_ value: Bool) {
+    func setEditing(_ value: Bool) {
         isEditing = value
         if !value && pendingCollapse {
             pendingCollapse = false

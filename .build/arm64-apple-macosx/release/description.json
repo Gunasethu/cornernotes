@@ -28,6 +28,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Editor.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/FloatingPanel.swift"
         },
         {
@@ -68,6 +72,7 @@
       "moduleOutputPath" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/Modules/CornerNotes.swiftmodule",
       "objects" : [
         "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/AppDelegate.swift.o",
+        "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/Editor.swift.o",
         "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/FloatingPanel.swift.o",
         "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/LaunchAtLogin.swift.o",
         "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/Models.swift.o",
@@ -115,6 +120,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/Editor.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/FloatingPanel.swift.o"
         },
         {
@@ -149,6 +158,7 @@
       "prepareForIndexing" : false,
       "sources" : [
         "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/AppDelegate.swift",
+        "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Editor.swift",
         "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/FloatingPanel.swift",
         "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/LaunchAtLogin.swift",
         "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Models.swift",
@@ -176,6 +186,7 @@
       "8",
       "-c",
       "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/AppDelegate.swift",
+      "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Editor.swift",
       "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/FloatingPanel.swift",
       "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/LaunchAtLogin.swift",
       "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Models.swift",
@@ -246,6 +257,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/Editor.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/gunasethu/Desktop/CornerNotes/Sources/CornerNotes/FloatingPanel.swift"
         },
         {
@@ -285,6 +300,10 @@
         {
           "kind" : "file",
           "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/gunasethu/Desktop/CornerNotes/.build/arm64-apple-macosx/release/CornerNotes.build/Editor.swift.o"
         },
         {
           "kind" : "file",

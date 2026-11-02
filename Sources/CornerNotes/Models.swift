@@ -20,6 +20,7 @@ struct Block: Codable, Identifiable, Hashable {
     var kind: BlockKind
     var text: String
     var done: Bool = false
+    var indent: Int = 0
 }
 
 struct AppState: Codable {
